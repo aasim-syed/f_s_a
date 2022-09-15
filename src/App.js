@@ -18,6 +18,7 @@ function App() {
         <Routes>
           
           <Route   path="Login" element={<Loginp/>} />           
+          <Route   path="Home" element={<Home/>} />           
 
         </Routes>
       </Router>
