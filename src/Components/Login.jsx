@@ -1,7 +1,7 @@
 import React ,{ useState }from 'react'
 import styled from 'styled-components'
 import '../Components/styles/Login.css'
-
+import {Link} from 'react-router-dom'
 const Login = () => {
 
 
@@ -23,13 +23,16 @@ const Login = () => {
       <input type="password" name="" required=""></input>
       <label>Password</label>
     </div>
-    {/* <a href="#">
+    <a href="#">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
       Submit
-    </a> */}
+    </a>
+    <Link to="/Forgotpass">
+    <h5>Forgot password?huh?💀😒</h5>
+    </Link>
   </form>
 </div>
 </body>
